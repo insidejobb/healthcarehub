@@ -1,38 +1,107 @@
-/* AboutUsPage.css */
+.heading__inner{
+  background: #4f758b;
+  margin-top: 0px;
+}
+.content1{
+  padding: 1rem;
+  text-indent: 50px;
+  align-items: center;
+  text-align: center;
+}
+.section__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.section__body img {
+  max-width: 100%;
+  height: auto;
+}
+.content2 {
+  margin: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media screen and (min-width: 768px) {
+  .section__body {
+      flex-direction: row;
+      text-align: left;
+  }
+  .section__body img {
+      max-width: 80%;
+      height: auto;
+  }
+}
+.compressive{
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow:10px 10px 10px 10px rgb(158, 152, 152);
+}
+.container3{
+  margin: 10px;
+  padding: 1rem;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: aqua;
+}
+.missions {
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow:10px 10px 10px 10px rgb(158, 152, 152);
+}
 
-.about-us {
-    padding: 20px;
-    text-align: left;
-    background-color: #f4f4f4;
+.missionContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px; /* Adjust the maximum width as needed */
+  width: 100%;
+  padding: 20px;
+}
+
+.missionText {
+  flex: 1;
+  padding: 10px;
+}
+
+.missionImage {
+  flex: 1;
+  padding: 10px;
+  text-align: right;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .missionContent {
+      flex-direction: column-reverse;
+      text-align: center;
   }
-  
-  h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #333;
+
+  .missionText, .missionImage {
+      flex: none;
+      width: 100%;
+      text-align: left;
   }
-  
-  p {
-    font-size: 18px;
-    color: #666;
-  }
-  
-  ul {
-    font-size: 18px;
-    color: #666;
-    list-style-type: disc;
-    margin-left: 20px;
-  }
-  
-  .image-gallery {
-    margin-top: 20px;
-    text-align: center;
-  }
-  
-  .gallery-images img {
-    width: 100%;
-    max-width: 300px; /* Adjust the maximum image width as needed */
-    margin: 10px;
-    border: 1px solid #ccc;
-  }
-  
+}
+.values{
+  box-shadow:10px 10px 10px 10px rgb(158, 152, 152);
+  padding: 1rem;
+  border-radius: 20px;
+
+}
+.valuebox{
+  margin: 30px;
+  text-align: center;
+  box-shadow:10px 10px 10px 10px rgb(158, 152, 152);
+}
+.valuebox img{
+  width: 5rem;
+  height: 5rem;
+}

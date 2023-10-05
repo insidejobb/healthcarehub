@@ -21,6 +21,9 @@ const WelcomePage = () => {
       <div className='image_container'>
       <img src="https://static.thenounproject.com/png/1334461-200.png" alt="Loading Image" className="loading-image" />
       </div>
+      <span className='container'>
+    {showButton && <button className='botton' onClick={navigator}>Login</button>}
+    </span>
     <div>
       <h1>
       <span>L</span>
@@ -31,9 +34,6 @@ const WelcomePage = () => {
       <span>N</span>
       <span>G</span>
       </h1>
-    </div>
-    <div className='container'>
-    {showButton && <button className='botton' onClick={navigator}>Login</button>}
     </div>
     </div>
     </>

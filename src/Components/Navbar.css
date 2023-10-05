@@ -2,12 +2,13 @@
 nav {
     background-color: #333;
     color: #fff;
+    width: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10px;
     width:auto;
     overflow: hidden;
+    height: 4rem;
   }
    li {
     float: right; /* This will float the items to the right */
@@ -41,7 +42,7 @@ nav {
   .marquee-text {
     white-space: nowrap;
     animation: marquee 20s linear infinite;
-    font-size: 3vw;
+    font-size: 1vw;
   }
   
   @keyframes marquee {
