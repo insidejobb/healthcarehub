@@ -1,0 +1,28 @@
+.container {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.contact-form {
+    max-width: 20rem;
+    margin: auto;
+}
+.contact-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    padding: 1rem;
+    border:none;
+    box-shadow: 5px 5px 5px 5px rgb(153, 145, 145);
+    border-radius: 10px;
+}
+textarea{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(153, 145, 145);
+}
+textarea ::placeholder{
+    text-decoration: dashed;
+
+}

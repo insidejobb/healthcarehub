@@ -1,0 +1,56 @@
+
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    width:auto;
+    overflow: hidden;
+  }
+   li {
+    float: right; /* This will float the items to the right */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: auto;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  /* Marquee.css */
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .marquee-text {
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+    font-size: 3vw;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  
