@@ -105,3 +105,38 @@ img {
   width: 5rem;
   height: 5rem;
 }
+.abc{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates three equal-width columns */
+  gap: 10px;
+}
+
+
+.valuebox {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  transition: transform 0.3s; /* Smooth transition for the scale transform */
+}
+
+/* Add hover effect */
+.valuebox:hover {
+  transform: scale(1.1); /* Enlarge the box on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a box shadow on hover */
+  z-index: 1; /* Bring the box to the top layer on hover */
+}
+
+/* Style other elements within .valuebox as needed */
+.valuebox h4 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.valuebox img {
+  max-width: 100%;
+  height: auto;
+}
+
+.valuebox p {
+  margin-top: 10px;
+}
