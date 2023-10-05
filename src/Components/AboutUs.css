@@ -1,0 +1,38 @@
+/* AboutUsPage.css */
+
+.about-us {
+    padding: 20px;
+    text-align: left;
+    background-color: #f4f4f4;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  ul {
+    font-size: 18px;
+    color: #666;
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .image-gallery {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .gallery-images img {
+    width: 100%;
+    max-width: 300px; /* Adjust the maximum image width as needed */
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  

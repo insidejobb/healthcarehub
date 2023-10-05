@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('');
+}
+.image_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
+h1{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1 span{
+    color: #262626;
+    background: #fff;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: table-cell;
+    box-shadow:0 0 5px rgb(0,0,0,.3 ),5px 10px 10px 5px black,0 15px 5px rgb(0,0,0,0);
+    animation:  animate .5s infinite;
+}
+@keyframes animate{
+    0%{
+        transform: translateY(0px);
+        box-shadow:0 0 5px rgb(0,0,0,.3 ),5px 10px 10px 5px black,0 15px 5px rgb(0,0,0,0);
+    }
+    50%{
+        transform: translateY(-20px);
+        box-shadow:0 0 5px rgb(0,0,0,.3 ),5px 10px 10px 5px black,0 15px 5px rgb(0,0,0,0);
+    }
+    100%{
+        transform: translateY(0px);
+        box-shadow:0 0 5px rgb(0,0,0,.3 ),5px 10px 10px 5px black,0 15px 5px rgb(0,0,0,0);
+    }
+}
+h1 span:nth-child(1){
+    animation-delay: .2s;
+}
+h1 span:nth-child(2){
+    animation-delay: .6s;
+}
+h1 span:nth-child(3){
+    animation-delay: .9s;
+}
+h1 span:nth-child(4){
+    animation-delay: 1.2s;
+}
+h1 span:nth-child(5){
+    animation-delay: 1.5s;
+}
+h1 span:nth-child(6){
+    animation-delay: 1.8s;
+}
+h1 span:nth-child(7){
+    animation-delay: 2.1s;
+}
+.container{
+    margin-top: 10rem;
+    justify-content: center;
+}
+.botton{
+    background-color: rgb(11, 11, 24);
+    color: white;
+    padding: 10px 20px; /* Add padding for better button size */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    text-align: center;
+}
+.botton:hover{
+    background-color: rgb(0, 255, 170);
+}
