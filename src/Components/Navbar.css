@@ -36,12 +36,14 @@ nav {
     width: 100%;
     overflow: hidden;
     text-align: center;
+    margin-top: 20px;
   }
   
   .marquee-text {
     white-space: nowrap;
     animation: marquee 20s linear infinite;
     font-size: 1vw;
+    color: white;
   }
   
   @keyframes marquee {
