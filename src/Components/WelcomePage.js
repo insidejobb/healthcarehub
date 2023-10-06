@@ -19,7 +19,7 @@ const WelcomePage = () => {
     <>
     <div>
       <div className='image_container'>
-      <img src="https://static.thenounproject.com/png/1334461-200.png" alt="Loading Image" className="loading-image" />
+      <img src="https://static.thenounproject.com/png/1334461-200.png" alt="Loading" className="loading-image" />
       </div>
     <div>
       <h1>
