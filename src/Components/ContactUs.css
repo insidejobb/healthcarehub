@@ -31,3 +31,7 @@ textarea ::placeholder{
 .contac_heading{
     text-align: center;
 }
+.ding{
+  background-size: 50% auto;
+    background-image: url('https://img.freepik.com/free-vector/flat-customer-support-illustration_23-2148899114.jpg?w=740&t=st=1696591802~exp=1696592402~hmac=d734597b6ab784bfbbe4fc6b3dbb017f0fe1b393ef95fa5ad2964fccf4b0802a');
+}

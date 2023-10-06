@@ -20,7 +20,7 @@ const AboutUs = () => {
    <h2 style={{textAlign:'center'}}>Comprehensive Care</h2>
     <span class="section__body">
         <span>
-            <img src="https://www.ncqa.org/wp-content/uploads/2018/07/PCMHLandingImage_DoctorPatient.jpg" alt="Doctor and Patient"/>
+            <img src="../Images/one.webp" alt="Doctor and Patient"/>
         </span>
         <span>
             <p class="content2">The patient-centered medical home is a model of care that puts patients at the forefront of care. PCMHs build better relationships between patients and their clinical care teams.</p>
@@ -36,7 +36,7 @@ const AboutUs = () => {
             <p className='content2'>Shows that PCMHs improve quality and the patient experience, and increase staff satisfaction—while reducing health care costs. Practices that earn recognition have made a commitment to continuous quality improvement and a patient-centered approach to care.</p>
         </div>
         <div className='missionImage'>
-            <img src="https://www.anvayaa.com/src/img/people-partner-ecosystem.png" alt="Doctor and Patient"/>
+            <img src="../Images/two.png" alt="Doctor and Patient"/>
         </div>
     </div>
 </div>

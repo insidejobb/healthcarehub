@@ -40,7 +40,7 @@ const Home = () => {
       </div>
       </div>
 
-      {/* //Cards dispayed here */}
+      {/* //Cards dispayed here
       <div className='cardHolder'>
       <div className="card">
       <img src='../Images/mission.png' alt='abc' />
@@ -63,7 +63,51 @@ const Home = () => {
         and livelihood options necessary to cater for the aged...</p>
       <button className='btn btn-warning '>ReadMore</button>
     </div>
+      </div> */}
+
+
+<div className='container'>
+      <div className='row'>
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+          <div className="card mb-4">
+            <img src='../Images/mission.png' alt='abc' className="card-img-top" />
+            <div className="card-body">
+              <h2 className="card-title">Mission</h2>
+              <p className="card-text">The Compassion for the Aged Foundation aims to be a leading organization that provides geriatric care services to ...</p>
+              <button className='btn btn-warning'>Read More</button>
+            </div>
+          </div>
+        </div>
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+          <div className="card mb-4">
+            <img src='../Images/vision.jpg' alt='abc' className="card-img-top" />
+            <div className="card-body">
+              <h2 className="card-title">Vision</h2>
+              <p className="card-text">To bring succor to the aged/elderly people in society through missions in prosperity, health, and shelter.</p>
+              <button className='btn btn-warning'>Read More</button>
+            </div>
+          </div>
+        </div>
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+          <div className="card mb-4">
+            <img src='../Images/objective.png' alt='abc' className="card-img-top" />
+            <div className="card-body">
+              <h2 className="card-title">Objective</h2>
+              <p className="card-text">Prosperity, health, and shelter, social wellbeing, healthcare, and livelihood options necessary to cater for the aged...</p>
+              <button className='btn btn-warning'>Read More</button>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+
+
+
+
+
+
+
+
 
       <div className='volenteers'>
         <span>

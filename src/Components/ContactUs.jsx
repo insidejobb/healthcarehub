@@ -1,6 +1,7 @@
 import React from 'react';
 import './ContactUs.css';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 const ContactUs = () => {
   return (
@@ -16,7 +17,7 @@ const ContactUs = () => {
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
-<div className="container">
+<div className="ding">
 <h2 className='contac_heading'>Fill the form to contact</h2>
       <div className="contact-form">
         <form
@@ -52,7 +53,7 @@ const ContactUs = () => {
             className="form-textarea"
           ></textarea>
 
-          <input type="submit" value="Send" className="submit-button" />
+          <input type="submit" value="Send" className="submit-button bg-outline-warning" />
         </form>
       </div>
     </div>
