@@ -36,7 +36,7 @@ const WelcomePage = () => {
     <div className='showbuton'>
     {showButton && (
         <button className='botton' onClick={navigator}>
-          Login
+          Visit the page
         </button>
       )}
     </div>
