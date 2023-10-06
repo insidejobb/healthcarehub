@@ -15,7 +15,7 @@ const Home = () => {
     <>
       <Navbar/>
       <div className='cc'>
-      <div style={{width:'50%',marginTop:'17px'}}>
+      <div style={{marginTop:'17px'}}>
       <Carousel activeIndex={index} onSelect={handleSelect} >
       <Carousel.Item style={{color:'black'}}>
       <img src='../Images/curosel1.jpg' alt='a'/>
@@ -66,7 +66,7 @@ const Home = () => {
       </div> */}
 
 
-<div className='container'>
+      <div className='container'>
       <div className='row'>
         <div className='col-lg-4 col-md-6 col-sm-12'>
           <div className="card mb-4">
