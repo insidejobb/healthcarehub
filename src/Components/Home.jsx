@@ -18,13 +18,13 @@ const Home = () => {
       <div style={{width:'50%',marginTop:'17px'}}>
       <Carousel activeIndex={index} onSelect={handleSelect} >
       <Carousel.Item style={{color:'black'}}>
-      <img src='https://img.freepik.com/free-vector/homecare-services-cartoon-landing-page_107791-5638.jpg?w=740&t=st=1696570684~exp=1696571284~hmac=234274c5c8c96165222d2e63482351c33015332738f630cecf3dd8a6b6f27d93' alt='a'/>
+      <img src='../Images/curosel1.jpg' alt='a'/>
       </Carousel.Item>
       <Carousel.Item>
-        <img src='https://img.freepik.com/free-vector/elderly-care-cartoon-concept-with-old-women-walking-outdoors-vector-illustration_1284-80135.jpg?w=740&t=st=1696570774~exp=1696571374~hmac=8d694f0d729eb9e162b47fb771eb448e88da87fc1adde48c14f81b9c966a6fee' alt='b'/>
+        <img src='../Images/curosel2.jpg' alt='b'/>
       </Carousel.Item>
       <Carousel.Item>
-      <img src='https://i.pinimg.com/736x/c2/ed/8c/c2ed8ca78ba4bb75e83e4b5c6361b526.jpg' alt='c'/>
+      <img src='../Images/curosel3.jpg' alt='c'/>
       </Carousel.Item>
     </Carousel>
       </div>
@@ -42,22 +42,22 @@ const Home = () => {
 
       {/* //Cards dispayed here */}
       <div className='cardHolder'>
-      <div className="card  col-lg-4 col-md-6 col-sm-12">
-      <img src='https://cftaf.org/wp-content/uploads/2018/07/vision-and-mission-770x515-1.png' alt='abc' />
+      <div className="card">
+      <img src='../Images/mission.png' alt='abc' />
       <h2>Mission </h2>
       <p>The Compassion for the Aged Foundation aims to be a leading
          organization that provides geriatric care services to ...</p>
       <button className='btn btn-warning'>ReadMore</button>
     </div>
     <div className="card">
-      <img src='https://cftaf.org/wp-content/uploads/2018/07/vision-2.jpg' alt='abc' />
+      <img src='../Images/vision.jpg' alt='abc' />
       <h2>Vision</h2>
       <p>To bring succor to the aged/elderly people in society 
         through missions in prosperity, health, and shelter.</p>
       <button className='btn btn-warning'>ReadMore</button>
     </div>
     <div className="card">
-      <img src='https://cftaf.org/wp-content/uploads/2018/07/52338894-objectives-word-cloud-business-concept.png' alt='abc' />
+      <img src='../Images/objective.png' alt='abc' />
       <h2>Objective </h2>
       <p>Prosperity, health, and shelter, social wellbeing, healthcare, 
         and livelihood options necessary to cater for the aged...</p>
@@ -75,7 +75,7 @@ const Home = () => {
             <button className='btn btn-danger'>ReadMore</button>
         </span>
         <span className='image_container'>
-          <img src="https://cftaf.org/wp-content/uploads/2023/04/volunteers-needed-button-speech-bubble-volunteer-needed-web-banner-template-illustration-vector.jpg" alt='volenteerimage'/>
+          <img src="../Images/volentery.jpg" alt='volenteerimage'/>
         </span>
       </div>
       <Footer/>
