@@ -80,4 +80,5 @@ h1 span:nth-child(7){
 .showbuton{
     justify-content: center;
     display: flex;
+    margin-top: 25rem;
 }

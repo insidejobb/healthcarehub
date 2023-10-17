@@ -17,22 +17,15 @@ const WelcomePage = () => {
   }
   return (
     <>
-    <div>
-      <div className='image_container'>
-      <img src="../Images/welcome.png" alt="Loading" className="loading-image" />
-      </div>
-    <div>
       <h1>
+      <span>W</span>
+      <span>E</span>
       <span>L</span>
+      <span>C</span>
       <span>O</span>
-      <span>A</span>
-      <span>D</span>
-      <span>I</span>
-      <span>N</span>
-      <span>G</span>
+      <span>M</span>
+      <span>E</span>
       </h1>
-    </div>
-    </div>
     <div className='showbuton'>
     {showButton && (
         <button className='botton' onClick={navigator}>

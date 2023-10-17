@@ -1,0 +1,471 @@
+.homebox{
+    display: flex;
+
+}
+.hello{
+    display: flex;
+    text-align: center;
+    background-color: whitesmoke;
+     
+}
+.hello input{
+   margin-left: 45rem;
+   border:none;
+}
+.icon{
+    color: black;
+}
+.hello p{
+    color: blueviolet;
+    margin: 20px;
+    text-align: center;
+}
+
+.top {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.sidebar {
+    background-color: rgb(44, 44, 102);
+    width: 20%;
+}
+
+span {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    color: wheat;
+}
+.centered-span:hover{
+    background-color: #5018e9;
+}
+
+.centered-span {
+    display: flex;
+    align-items: center;
+}
+
+.centered-span h5 {
+    margin: 0 10px;
+}
+
+.main-span {
+    background-color: rgb(60, 53, 78);
+}
+
+.sidebar {
+    width: 20%;
+    height:62rem;
+}
+
+.avatharam {
+    margin-top: 12rem;
+    background-color: navy;
+}
+
+.avatharam div h6 {
+    margin-left: 10px;
+}
+
+.avatharam p {
+    margin-left: 30px;
+    text-transform: lowercase;
+    display: inline;
+    width: 1rem;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    .top {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .sidebar {
+        width: 100%; 
+    }
+}
+.imagepart img{
+    width:100px;
+}
+.cardholder{
+    display:flex;
+    background-color: whitesmoke;
+    width:20rem;
+    margin: 20px;
+    transition: background-color 0.3s;
+}
+.cardholder {
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s; /* Add a smooth transition for the background color */
+  }
+  
+  .cardholder:hover {
+    background-color: #bb9b9b; /* Change the background color on hover */
+  }
+  
+  .imagepart {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .text {
+    flex: 1;
+    text-align: left;
+  }
+  .text p {
+    margin: 5px 0;
+  }
+  
+  .text h6 {
+    color: #ff6600;
+    font-weight: bold;
+  }
+  
+  .text span {
+    color: #00cc00;
+    font-weight: bold;
+  }
+  .fourcontainers{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .fourcontainers {
+    display: flex;
+    flex-wrap: wrap; /* Wrap the cards when the screen size is small */
+    justify-content: space-between; /* Adjust as needed */
+  }
+  
+  .cardholder {
+    flex: 1; /* Distribute available space equally among cards */
+    max-width: 400px; /* Maximum width for each card */
+    margin: 10px; /* Add margin as needed */
+    padding: 10px;
+    transition: background-color 0.3s;
+    box-sizing: border-box; /* Include padding in card width */
+  }
+  
+  .cardholder:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .imagepart {
+    text-align: center;
+  }
+  
+  .text {
+    text-align: left;
+  }
+  
+  .text p {
+    margin: 5px 0;
+  }
+  
+  .text h6 {
+    color: #ff6600;
+    font-weight: bold;
+  }
+  
+  .text span {
+    color: #00cc00;
+    font-weight: bold;
+  }
+  
+  /* Media Query for smaller screens (e.g., mobile) */
+  @media (max-width: 768px) {
+    .fourcontainers {
+      flex-direction: column; /* Stack cards vertically on smaller screens */
+    }
+  
+    .cardholder {
+      max-width: 100%; /* Take full width on smaller screens */
+    }
+  }
+
+  .bar-graph {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    height: 300px;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .bar {
+    flex: 1;
+    text-align: center;
+    background-color: #5c576b;
+    color: white;
+    cursor: pointer;
+    transition: height 0.3s;
+  }
+  
+  .bar:hover {
+    background-color: #1c0c77;
+  }
+  
+  .bar .value {
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Media Query for smaller screens (e.g., mobile) */
+  @media (max-width: 768px) {
+    .bar-graph {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .bar {
+      flex: auto;
+    }
+  }
+.bar-graph{
+    width: 50rem;
+}  
+.bar{
+    margin:5px;
+    border-radius: 5px;
+}
+.zero-value {
+    background-color: #721616;
+    cursor: not-allowed; /* Cursor style for zero-value bars */
+    min-height: 100px; /* Adjust the minimum height as needed */
+  }
+  .bar-graph-container {
+    position: relative;
+  }
+  
+  .top-left-heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .top-right-heading {
+    position: relative;
+    margin-bottom: 16rem;
+  }
+  .grap{
+    display: flex;
+    margin: 10px;
+  }
+  .sixtyfive{
+    width:20rem;
+    margin: 20px;
+    background-color: whitesmoke;
+    margin-left: 6rem;
+
+  }
+  .sixtyfive img{
+    width: 10rem;
+    text-align: center;
+    margin-left: 2rem;
+  }
+.bottom{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 5px black;
+    width: 100%;
+  }
+.bottom p{
+    color: rgb(17, 15, 15);
+    text-align: left;
+    margin-left: 3rem;
+}
+
+.bottom input{
+   margin-left: 38rem;
+   border: none;
+   color: black;
+   height: 2rem;
+}
+.serch{
+    color: black;
+    text-align: center;
+    margin-top: -13px;
+}
+.product{
+    display: flex;
+}
+.product .stoke{
+    margin-left: 40rem;
+}
+.product h5{
+    margin-left: 2rem;
+}
+.picturecontainer img{
+    width:100px;
+}
+.producttext{
+    color: black;
+    display: flex;
+}
+.pp{  
+    margin-left:1rem;
+}
+.p{
+    margin-left:18rem ;
+}
+.ppp{
+    margin-left: 2rem;
+}
+.this h5{
+    margin-left:-15rem;
+    color: black;
+}
+.this p{
+    color: black;
+}
+
+/* Common styles for both laptop and mobile */
+.bar-graph {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    height: 300px;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.bar {
+    flex: 1;
+    text-align: center;
+    background-color: #5018e9;
+    color: white;
+    cursor: pointer;
+    transition: height 0.3s;
+}
+
+.bar .value {
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.sixtyfive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .sixtyfive img {
+    width: 100px;
+    margin: 10px;
+  }
+/* Laptop styles */
+@media (min-width: 768px) {
+    .bar-graph {
+        height: 300px;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+    .bar-graph {
+        flex-direction: column;
+        height: auto;
+    }
+    .bar {
+        flex: auto;
+    }
+    .sixtyfive {
+    flex-direction: row;
+    margin-top: 0;
+  }
+}
+
+.bar-graph-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bar-graph {
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .bar {
+    width: 100%;
+    text-align: center;
+    background-color: #5018e9;
+    color: white;
+    cursor: pointer;
+    transition: height 0.3s;
+  }
+  
+  .bar .value {
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Laptop styles */
+  @media (min-width: 768px) {
+    .bar-graph-container {
+      flex-direction: row; 
+      height: 300px;
+    }
+  
+    .bar {
+      flex: 1;
+      margin-bottom: 0; 
+    }
+    
+  }
+
+  .bar-graph {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .bar {
+    flex: 1;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition: height 0.3s;
+  }
+  
+  /* Add a white background for zero-value bars */
+  .bar.zero-value {
+    background-color: rgb(190, 168, 219);
+    cursor: not-allowed;
+    min-height: 100px; /* Adjust the minimum height as needed */
+  }
+  
+  
+  
+  .bar .value {
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Media Query for smaller screens (e.g., mobile) */
+  @media (max-width: 768px) {
+    .bar-graph {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .bar {
+      flex: auto;
+    }
+  }
+  
+  
+  
